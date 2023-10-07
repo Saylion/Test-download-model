@@ -30,7 +30,7 @@ if __name__ == '__main__':
         print(f'Downloading {model}...')
         dl_model(RVC_DOWNLOAD_LINK, model, rvc_models_dir)
 
-    pretrained_v1_model_names = ['D32k.pth', 'D42k.pth', 'D48k.pth', 'G32k.pth', 'G42k.pth', 'G48k.pth', 'f0D32k.pth', 'f0D42k.pth' 'f0D48k.pth', 'f0G32k.pth', 'f0G42k.pth', 'f0G48k.pth']
+    pretrained_v1_model_names = ['D32k.pth', 'D40k.pth', 'D48k.pth', 'G32k.pth', 'G40k.pth', 'G48k.pth', 'f0D32k.pth', 'f0D40k.pth' 'f0D48k.pth', 'f0G32k.pth', 'f0G40k.pth', 'f0G48k.pth']
     for model in pretrained_v1_model_names:
         print(f'Downloading {model}...')
         dl_model(PRETRAINED_V1_DOWNLOAD_LINK, model, pretrained_v1_models_dir)
